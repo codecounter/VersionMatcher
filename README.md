@@ -19,7 +19,7 @@ Installation
 {
     ...
     "require": {
-        "gregwar/captcha": "dev-master"
+        "codecounter/versionmatcher": "0.1.0"
     }
 }
 ```
@@ -63,6 +63,7 @@ $matcher->match('ios >= 1.4.0 || android >= 1.3.0');
 // produce `false`
 $matcher->match('ios >= 1.4.0 || android < 1.2.0');
 ```
+For detailed usage, please view `tests` directory.
 
 License
 =======
