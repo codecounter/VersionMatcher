@@ -129,7 +129,6 @@ class VersionMatcher {
         // compare expr item
         $expr = preg_replace_callback('/([\d\.]+)\s*([\<\>\=]+)\s*([\d\.]+)/', function ($match) {
             $itemResult = version_compare($match[1], $match[3], $match[2]);
-            var_dump($match, $itemResult);
             return $itemResult ? 1 : 0;
         }, $expr);
 
