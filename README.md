@@ -1,6 +1,8 @@
 VersionMatcher
 =======
 
+[![Build Status](https://travis-ci.com/codecounter/VersionMatcher.svg?branch=master)](https://travis-ci.com/codecounter/VersionMatcher)
+
 Compare versions with logic opertation.
 
 Installation
@@ -67,7 +69,8 @@ Develop
 - `docker-compose up -d`
 - `docker-compose exec php bash`, ssh to the container
 - `cd /var/www`
-- `phpunit`, run unit test
+
+then, you can run unit test by `phpunit`, or code sniffer by `phpcs`.
 
 License
 =======
