@@ -3,13 +3,6 @@ VersionMatcher
 
 Compare versions with logic opertation.
 
-Unit test
-=========
-
-First, install phpunit, then run command:
-
-`phpunit --bootstrap /path/to/bootstrap /path/to/test/file`
-
 Installation
 ============
 
@@ -64,6 +57,17 @@ $matcher->match('ios >= 1.4.0 || android >= 1.3.0');
 $matcher->match('ios >= 1.4.0 || android < 1.2.0');
 ```
 For detailed usage, please view `tests` directory.
+
+Develop
+=======
+
+- Clone repository
+- `cd dev`
+- `cp docker-compose.example.yml docker-compose.yml`, modify it if necessary
+- `docker-compose up -d`
+- `docker-compose exec php bash`, ssh to the container
+- `cd /var/www`
+- `phpunit`, run unit test
 
 License
 =======

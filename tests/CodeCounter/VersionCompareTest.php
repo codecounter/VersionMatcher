@@ -5,7 +5,7 @@ namespace CodeCounter;
 /**
  * Test php internal function `version_compare`, which `VersionCompare` based on
  */
-class VersionCompareTest extends \PHPUnit_Framework_TestCase {
+class VersionCompareTest extends \PHPUnit\Framework\TestCase {
 
     public function testAll () {
         // 2.0 > 1.0

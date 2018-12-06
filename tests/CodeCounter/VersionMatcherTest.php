@@ -2,7 +2,9 @@
 
 namespace CodeCounter;
 
-class VersionMatcherTest extends \PHPUnit_Framework_TestCase {
+use PHPUnit\Framework\TestCase;
+
+class VersionMatcherTest extends TestCase {
 
     public function testSimple () {
 
