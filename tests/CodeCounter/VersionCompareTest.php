@@ -9,7 +9,8 @@ class VersionCompareTest extends \PHPUnit\Framework\TestCase {
 
     public function testAll () {
         // 2.0 > 1.0
-        $this->assertEquals(version_compare('2.0', '1.0'), 1);
+        // $this->assertEquals(version_compare('2.0', '1.0'), 1);
+        $this->assertEquals(version_compare('2.0', '1.0'), 2);
 
         // 2.0 > 1.0.0
         $this->assertEquals(version_compare('2.0', '1.0.0'), 1);
