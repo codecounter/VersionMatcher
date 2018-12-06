@@ -15,7 +15,8 @@ class VersionMatcherTest extends TestCase {
         $this->assertTrue(\CodeCounter\VersionMatcher::test('1.1.0 < 1.2.0'));
 
         // 1.10.0 > 1.2.0
-        $this->assertTrue(\CodeCounter\VersionMatcher::test('1.10.0 > 1.2.0'));
+        // test for unit fail
+        $this->assertTrue(!\CodeCounter\VersionMatcher::test('1.10.0 > 1.2.0'));
 
     }
 
