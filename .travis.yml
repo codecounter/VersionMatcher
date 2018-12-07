@@ -18,3 +18,4 @@ install:
 script:
   - phpcs
   - phpunit
+  - php tests/coverage-check.php

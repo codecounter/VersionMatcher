@@ -2,3 +2,4 @@ vendor
 vendor/**
 .idea
 dev/docker-compose.yml
+tests/coverage-report.php

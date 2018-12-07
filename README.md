@@ -72,6 +72,9 @@ Develop
 
 then, you can run unit test by `phpunit`, or code sniffer by `phpcs`.
 
+`php tests/coverage-check.php` after `phpunit`, this script can exit stdout with 1
+when coverage < 90%, for ci notification.
+
 License
 =======
 
