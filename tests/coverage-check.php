@@ -13,7 +13,7 @@ $linePercent = $report->getLineExecutedPercent(false);
 
 echo 'line percent ' . $linePercent . "\n";
 
-if ($linePercent < 0.9) {
+if ($linePercent < 90) {
     echo 'line percent < 0.9' . "\n";
     exit(1);
 }
