@@ -3,7 +3,7 @@ VersionMatcher
 
 [![Build Status](https://travis-ci.com/codecounter/VersionMatcher.svg?branch=master)](https://travis-ci.com/codecounter/VersionMatcher)
 
-Compare versions with logic opertation.
+Compare versions with logic opertation. (Actually, it's a project to test ci/cd)
 
 Installation
 ============
